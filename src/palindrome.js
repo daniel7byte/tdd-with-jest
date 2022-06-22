@@ -1,5 +1,5 @@
 const isPalindrome = (str) => {
-  if (!str) return
+  // if (!str) return
   const reversed = str.split('').reverse().join('');
   return reversed === str;
 }
